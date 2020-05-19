@@ -10,3 +10,15 @@ then
 else 
     echo "X is equal to Y"    
 fi
+
+
+echo "Char input"
+read x
+if [ $x == 'y' ] || [ $x == 'Y' ]
+then
+    echo "YES"
+elif [ $x == 'n' ] || [ $x == 'N' ]
+then
+    echo "NO"
+fi        
+echo "fi closing is important here and then is also"
